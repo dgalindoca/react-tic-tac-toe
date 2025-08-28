@@ -12,12 +12,12 @@ import './App.css'
 function App() {
   // Load the saved board from localStorage or initialize a new one
   const [board, setBoard] = useState(() => {
-    const { board, turn } = loadGame();
+    const { board, _ } = loadGame();
     return board;
   });
   // Load the saved turn from localStorage or initialize a new one
   const [turn, setTurn] = useState(() => {
-    const { board, turn } = loadGame();
+    const { _, turn } = loadGame();
     return turn;
   });
   // null: no winner yet, false: draw, true: winner
