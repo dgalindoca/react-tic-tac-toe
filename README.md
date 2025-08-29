@@ -1,2 +1,3 @@
-# react-tic-tac-toe
-tic-tac-toe built using react 
+# React Tic Tac Toe
+
+Tic Tac Toe game built using react
